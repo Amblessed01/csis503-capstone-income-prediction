@@ -3,7 +3,7 @@
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -151,15 +151,15 @@ dmypy.json
 cython_debug/
 
 # PyCharm
-#.idea/
+.idea/
 
 # Abstra
 .abstra/
 
 # Visual Studio Code
-#.vscode/
+.vscode/
 
-# Ruff stuff:
+# Ruff stuff
 .ruff_cache/
 
 # PyPI configuration file
@@ -173,3 +173,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project outputs
+# Track Charts folder, ignore other outputs
+!Charts/
+outputs/
+models/
