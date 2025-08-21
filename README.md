@@ -104,7 +104,16 @@ This section presents the main visualizations generated during model evaluation.
 ### Target Variable Distribution
 Shows the count of individuals in each income class (`0` = ≤50K, `1` = >50K).
 
-![Income Level Distribution](Charts/income_level_distribution.png)
+## Model Evaluation & Visualizations
+
+This section presents the main visualizations generated during model evaluation. These plots illustrate class distribution, feature relationships, and model performance metrics.
+
+---
+
+### Target Variable Distribution
+Shows the count of individuals in each income class (`0` = ≤50K, `1` = >50K).
+
+![Target Variable Distribution](Charts/income_level_distribution.png)
 
 ---
 
@@ -185,11 +194,12 @@ Shows both the impact and direction of each feature on model predictions.
 
 ---
 
+
 ## Chart Files Reference
 
 | Chart Description                                | File Path    |
 |--------------------------------------------------|--------------|
-| Income Level Distribution                        | [View](Charts/income_level_distribution.png) |
+| Target Variable Distribution                     | [View](Charts/income_level_distribution.png) |
 | Correlation Heatmap                              | [View](Charts/correlation_heatmap.png) |
 | Key Feature Heatmap                              | [View](Charts/key_feature_heatmap.png) |
 | Education vs Income                              | [View](Charts/education_vs_income.png) |
